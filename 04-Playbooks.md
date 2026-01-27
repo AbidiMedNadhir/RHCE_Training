@@ -164,7 +164,8 @@ Créer un fichier /etc/motd contenant un message de bienvenue sur tous les hôte
 Un playbook Ansible peut contenir plusieurs plays.
 Chaque play peut cibler un groupe d’hôtes différent et représenter une étape distincte du déploiement.
 
-Pourquoi utiliser plusieurs plays ?
+#### Pourquoi utiliser plusieurs plays ?
+
 appliquer des configurations sur différents hôtes,
 séparer les responsabilités,
 améliorer la lisibilité.
@@ -275,9 +276,12 @@ Playbook : web_multiplay.yml
       url: http://node1
 ```
 
-Résultat attendu
+Résultat attendu:
 
-Les services httpd et firewalld sont installés et actifs
-Le firewall autorise le trafic HTTP
-La page web est accessible via http://node1
-Le contenu "hello" est affiché
+Les services httpd et firewalld sont installés et actifs,
+
+Le firewall autorise le trafic HTTP,
+
+La page web est accessible via http://node1,
+
+Le contenu "hello" est affiché.
