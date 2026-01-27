@@ -32,7 +32,7 @@ ansible <hosts> -m <module> -a "<arguments>" -i <inventory> [options]
 ---
 
 <p align="center">
-  <img src="images/Ad-Hoc commands.png" alt="Ansible Overview" width="600">
+  <img src="images/Ad-hoc structure.png" alt="Ansible Overview" width="600">
 </p>
 
 ---
