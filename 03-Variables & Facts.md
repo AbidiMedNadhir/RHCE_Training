@@ -306,7 +306,7 @@ ansible all -m setup -a "filter=ansible_default_ipv4"
 Créer un playbook Ansible permettant de générer automatiquement un **rapport système** sur les hôtes gérés (`node1` et `node2`) en utilisant les **facts Ansible**.
 Le rapport sera stocké dans un fichier `report.txt` et contiendra des informations dynamiques propres à chaque hôte.
 
----
+
 
 Créer un fichier nommé `report.yml` dans `/home/ansible`.
 À l’aide de ce playbook :
