@@ -285,6 +285,8 @@ Pour chaque hôte, Ansible affiche :
 le nom de la distribution (RHEL, CentOS, Ubuntu…)
 l’adresse IPv4 principale
 
+---
+
 ### Lab 3 : Vérification rapide des facts avec des commandes ad-hoc (optionnel)
 
 Afficher la distribution Linux :
@@ -297,8 +299,9 @@ Afficher l’adresse IPv4 :
 ansible all -m setup -a "filter=ansible_default_ipv4"
 ```
 
+---
 
-### Lab 4 : Génération d’un rapport système avec Ansible Facts
+### Lab 4 : Génération d’un rapport système avec Ansible Facts (Exercice type RHCE)
 
 Créer un playbook Ansible permettant de générer automatiquement un **rapport système** sur les hôtes gérés (`node1` et `node2`) en utilisant les **facts Ansible**.
 Le rapport sera stocké dans un fichier `report.txt` et contiendra des informations dynamiques propres à chaque hôte.
