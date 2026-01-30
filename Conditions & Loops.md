@@ -34,8 +34,9 @@ Exemple : afficher plusieurs valeurs sans répéter la tâche.
         - beta
         - gamma
 ```
-**loop** contient la liste
-**item** change à chaque itération
+**loop** contient la liste.
+
+**item** change à chaque itération.
 
 ### Boucle avec un fichier de variables
 
@@ -65,8 +66,6 @@ Playbook:
 
 ### Boucle avec une liste de dictionnaires
 
-Très utilisée pour gérer des utilisateurs, services ou configurations complexes.
-
 Fichier users.yml :
 
 ```yaml
@@ -93,7 +92,9 @@ Playbook :
 ```
 
 Accès aux valeurs :
+
 **item.name**
+
 **item.role**
 
 ---
