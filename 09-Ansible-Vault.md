@@ -115,16 +115,7 @@ ansible-playbook playbook.yml --vault-password-file vault_password
 
 ## Exemple : Création d’un utilisateur avec Ansible Vault
 
-### 🎯 Objectif de l’exemple
-Dans cet exemple, nous allons :
-- Protéger un **mot de passe sensible** avec Ansible Vault
-- Utiliser une **variable non chiffrée** pour le nom d’utilisateur
-- Créer un utilisateur Linux via un playbook Ansible
-- Vérifier que le mot de passe est bien stocké de manière sécurisée
-
----
-
-## 1️⃣ Création du fichier chiffré (mot de passe)
+### Création du fichier chiffré (mot de passe)
 
 Nous créons un fichier chiffré contenant le mot de passe de l’utilisateur.
 
@@ -167,7 +158,7 @@ ansible-playbook create_user.yml --ask-vault-pass
 
 Ansible demande le mot de passe Vault pour déchiffrer password.yml.
 
-Méthode avec fichier de mot de passe :
+#### Méthode avec fichier de mot de passe :
 
 ```bash
  ~/.vault_pass.txt
@@ -178,6 +169,7 @@ conntenu du fichier :
 ```bash
 MyVaultPassword
 ```
+
 
 ```bash
 chmod 600 ~/.vault_pass.txt
