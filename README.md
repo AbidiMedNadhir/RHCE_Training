@@ -24,6 +24,14 @@ L’objectif est de vous rendre **opérationnel dans des environnements professi
 
 ---
 
+##  À qui s'adresse ce cours ?
+
+- **Administrateurs systèmes RHEL** : souhaitant automatiser et standardiser leurs environnements.  
+- **Professionnels DevOps / IT** : préparant la certification RHCE pour booster leur carrière.  
+- **Étudiants en systèmes Linux** : désirant acquérir des compétences pratiques et certifiables.
+
+---
+
 ## Table des Matières
 <ol id="table-des-matieres" style="list-style-type: decimal; margin-left: 20px;">
   <li><a href="01-install-python-ansible-core.md">Introduction à Ansible et Setup de l'Environnement</a></li>
@@ -41,11 +49,3 @@ L’objectif est de vous rendre **opérationnel dans des environnements professi
   <li><a href="13-Managing Yum Repositories.md">Yum Repositories</a></li>
 
 </ol>
----
-
-## Public cible
-
-- **Administrateurs systèmes RHEL** : souhaitant automatiser et standardiser leurs environnements.  
-- **Professionnels DevOps / IT** : préparant la certification RHCE pour booster leur carrière.  
-- **Étudiants en systèmes Linux** : désirant acquérir des compétences pratiques et certifiables.
-
